@@ -6,7 +6,7 @@ import icon5 from "./images/icon5.png";
 
 const Location = () => {
   return (
-    <div className="container mx-auto space-y-5 px-2">
+    <div className="container mx-auto space-y-5 px-2 lg:-mt-14">
       <div className="flex gap-2 items-center">
         <img src={icon2} alt="" />
         <p className="text-white font-bold text-xl">
