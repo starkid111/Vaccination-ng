@@ -15,7 +15,7 @@ const Location = () => {
       </div>
 
       <div className="flex flex-col bg-[#C4C4C40D]/5 justify-between px-10 py-4  items-center rounded-t-2xl lg:flex-row shadow-lg shadow-current space-y-5 lg:spacey-0">
-        <div className="flex justify-between items-center mt-5  w-[100%] lg:w-[50%]">
+        <div className="flex flex-col space-y-3 md:space-y-0 md:flex-row justify-between md:items-center mt-5  w-[100%] lg:w-[50%]">
           <LocationItem
             image={icon5}
             name="Location"
@@ -27,7 +27,7 @@ const Location = () => {
             description="29th Febuary, 2022"
           />
         </div>
-        <div className="flex justify-between items-center  w-[100%] lg:w-[40%]">
+        <div className="flex  flex-col space-y-3 md:space-y-0 md:flex-row  justify-between md:items-center  w-[100%] lg:w-[40%]">
           <LocationItem
             image={icon4}
             name="Vaccine Type"

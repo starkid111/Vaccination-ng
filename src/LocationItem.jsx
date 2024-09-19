@@ -2,7 +2,7 @@
 
 const LocationItem = (props) => {
     return ( 
-        <div className="flex justify-between items-center gap-2">
+        <div className="flex md:justify-between items-center gap-2">
              <img src={props.image} alt="" />
              <div>
                 <p className="text-white/50">{props.name}</p>
