@@ -5,6 +5,7 @@ import Partners from './Partners';
 import Symptoms from './Symptoms';
 import Vaccination from './Vaccination';
 import VaccineForm from './VaccineForm';
+import Feedback from './Feedback';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Vaccination />
       <VaccineForm />
       <Symptoms />
+      <Feedback />
     </div>
   );
 }
