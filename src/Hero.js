@@ -16,10 +16,10 @@ const Hero = () => {
           in all 36 states in Nigeria.
         </p>
         <div className="flex gap-2">
-          <button className="text-white bg-[#17C2EC] px-2 md:px-4  lg:px-3  py-1 md:py-3 text-xl lg:font-bold rounded-2xl ">
+          <button className="text-white bg-[#17C2EC] px-4   py-3 text-xl lg:font-bold rounded-2xl ">
             Get Vaccine
           </button>
-          <button className="text-white bg-white/10 px-2  py-1 md:py-3 text-xl lg:font-bold rounded-2xl  border-[#17C2EC]  border-2 ">
+          <button className="text-white bg-white/10 px-4   py-3 text-xl lg:font-bold rounded-2xl  border-[#17C2EC]  border-2 ">
             Help Centre
           </button>
         </div>

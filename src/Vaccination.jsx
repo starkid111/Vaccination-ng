@@ -3,6 +3,7 @@ import icon6 from "./images/icon6.png";
 import icon7 from "./images/icon7.png";
 import icon8 from "./images/icon8.png";
 import arrow from "./images/arrow-right.png";
+import arrow2 from "./images/arrow2.png";
 import VaccinationItem from "./VaccinationItem";
 
 const Vaccination = () => {
@@ -32,40 +33,37 @@ const Vaccination = () => {
             <VaccinationItem
               icon={icon6}
               header="Protects your immune system against viruses"
+              textColor="#17C2EC"
+              textColor2="#17C2EC"
               arrow={arrow}
               description="Velit ut consectetur mauris, orci amet, faucibus. Sit turpis fringilla ipsum pretium,dictum. Dolor eget vel nulla lorem ac."
             />
           </div>
 
-          <div className="flex flex-wrap gap-3 p-0 md:flex-nowrap">
+          <div className="flex flex-wrap gap-3 md:gap-8 p-0 md:flex-nowrap">
             {/** <!--2nd card--> */}
 
             <div className="bg-transparent border-white/50 border-[3px] gray flex flex-col space-y-10 p-4 pb-10  rounded-3xl self-end w-[100%]  md:w-1/2 md:rounded-[50px] lg:w-1/2">
               {/** <!--icon--> */}
               <VaccinationItem
-              icon={icon7}
-              header="Minimize the spread of the Virus"
-              arrow={arrow}
-            />
+                icon={icon7}
+                header="Minimize the spread of the Virus"
+                textColor="white"
+                textColor2="gray"
+                arrow={arrow2}
+              />
             </div>
 
             {/** <!--3rd card--> */}
             <div className="bg-transparent border-white/50 border-[3px] gray flex flex-col space-y-10 p-4 pb-10  rounded-3xl self-end w-[100%] md:w-1/2 md:rounded-[50px] lg:w-1/2">
               {/**  <!--icon--> */}
-              <div className="">
-                <img src={icon8} alt="" />
-              </div>
-              <h3 className="text-[14px] font-bold text-white  max-w-sm md:text-2xl">
-                Protect yourself
-              </h3>
-              <div className="flex space-x-3 items-center">
-                <p className="text-[18px]  font-bold text-gray-200 md:text-[12px]">
-                  Read more
-                </p>
-                <div className="w-[25px]">
-                  <img src={arrow} alt="" className="w-[100%] text-gray-700" />
-                </div>
-              </div>
+              <VaccinationItem
+                icon={icon8}
+                header="Protect yourself"
+                textColor="white"
+                textColor2="gray"
+                arrow={arrow2}
+              />
             </div>
             {/** <!--end of third section--> */}
           </div>
