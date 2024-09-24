@@ -19,10 +19,12 @@ const Feedback = () => {
           arcu donec neque.
         </p>
 
-        <div className="flex justify-between gap-16" >
-           <Testimony  image={oyin} Tname= 'Oyindamola Maja' location='Badagry, Lagos' bgcolor = '#C4C4C480' color = '#00000080'/>
-           <Testimony  image={lekan} Tname= 'Okeowo Lekan' location='Ikeja, Lagos'  bgcolor = '#17C2EC' color = 'white' />
-           <Testimony  image={tope} Tname= 'Kafaru Temitope' location='Obanikoro, Lagos' bgcolor = "#C4C4C480" color = '#00000080'/>
+        <div className="flex flex-col lg:flex-row  lg:justify-between items-center md:gap-5 lg:gap-16" >
+           <Testimony  image={oyin} Tname= 'Oyindamola Maja' location='Badagry, Lagos' bgcolor = '#C4C4C480' color = '#00000080' Hcolor = "black" description =" “Been stressing about a close centre to get the  vaccine,
+           until i tried Vaccination.ng” "/>
+           <Testimony  image={lekan} Tname= 'Okeowo Lekan' location='Ikeja, Lagos'  bgcolor = '#17C2EC' color = 'white'  Hcolor="white" description =" “Got my vaccine very close to my house. Was very easy scheduling an appointment.” "/>
+           <Testimony  image={tope} Tname= 'Kafaru Temitope' location='Obanikoro, Lagos' bgcolor = "#C4C4C480" color = '#00000080' Hcolor = "black"  description =" “Been stressing about a close centre to get the  vaccine,
+           until i tried Vaccination.ng” "/>
         </div>
 
       </div>
