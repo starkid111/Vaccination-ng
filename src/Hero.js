@@ -2,7 +2,7 @@ import imageOne from "./images/imageOne.svg";
 
 const Hero = () => {
   return (
-    <div className="flex flex-col md:flex-row  justify-between container mx-auto gap-5 mt-4 lg:mt-6 py-5 px-3 ">
+    <div className="flex flex-col md:flex-row  justify-between container mx-auto gap-5 mt-4 lg:mt-6 py-5 px-5 ">
       <div className="flex flex-col space-y-10 w-full md:w-1/2">
         <p className="text-xl lg:text-2xl text-[#17C2EC] font-bold">
           Get Vaccinated. Boost your Immune System
