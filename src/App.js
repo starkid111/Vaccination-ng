@@ -6,6 +6,7 @@ import Symptoms from './Symptoms';
 import Vaccination from './Vaccination';
 import VaccineForm from './VaccineForm';
 import Feedback from './Feedback';
+import Footer from './Footer';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <VaccineForm />
       <Symptoms />
       <Feedback />
+      <Footer />
     </div>
   );
 }

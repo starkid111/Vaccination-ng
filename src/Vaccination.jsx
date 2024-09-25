@@ -9,7 +9,7 @@ import VaccinationItem from "./VaccinationItem";
 const Vaccination = () => {
   return (
     <div
-      className="vaccination"
+      className="vaccination md:py-8"
       style={{ backgroundImage: `url(${background})` }}
     >
       <div className="container  mx-auto">

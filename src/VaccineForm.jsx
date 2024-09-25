@@ -1,11 +1,12 @@
 import flag from "./images/flag.png";
 import covidImage from "./images/Covid.png";
+import bgwhite from './images/bg-white.svg'
 
 const VaccineForm = () => {
   return (
-    <div>
+    <div style={{ backgroundImage: `url(${bgwhite})` }}>
       <div className="container mx-auto flex flex-col-reverse lg:flex-row justify-between">
-        <div className="space-y-8 p-5 md:p-0">
+        <div className="space-y-8 p-5 md:py-10">
           <h1 className="text-5xl text-black font-bold text-center max-w-[452px] hidden lg:block">
             Get your Vaccine Registration today
           </h1>
@@ -57,7 +58,7 @@ const VaccineForm = () => {
         <h1 className="text-2xl md:text-3xl text-black font-bold text-center max-w-[452px] block lg:hidden">
             Get your Vaccine Registration today
           </h1>
-          <img src={covidImage} alt="" />
+          <img src={covidImage} alt=""/>
           <button className=" absolute bottom-20 left-24  text-white bg-[#C4C4C440]/25 px-10 md:px-14   py-2 text-xl lg:font-bold rounded-2xl ">
             Verify Status
           </button>
