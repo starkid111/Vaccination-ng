@@ -54,7 +54,7 @@ const VaccineForm = () => {
             </span>
           </div>
         </div>
-        <div className="relative space-y-4  h-full">
+        <div className="relative space-y-5  h-full">
         <h1 className="text-2xl md:text-3xl text-black py-9 font-bold text-center max-w-[452px] block lg:hidden">
             Get your Vaccine Registration today
           </h1>
